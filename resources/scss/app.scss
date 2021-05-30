@@ -1,0 +1,75 @@
+$color1: #232323;
+$colorLinkHeader: #ffffff;
+
+
+
+.wrapper
+{
+  font-family: Helvetica, sans-serif;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.content
+{
+  flex: 1 1 auto;
+}
+
+.container
+{
+}
+.header
+{
+  background-color: $color1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo img
+  {
+    width: 100px;
+    margin: 10px 0 10px 20px;
+  }
+  &__form-search
+  {
+    display: flex;
+    //justify-content: center;
+    align-items: center;
+
+  }
+  &__form-text
+  {
+    color: azure;
+    margin: 0 5px 0 5px;
+
+  }
+}
+.header__links
+{
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+}
+.header__search
+{
+}
+.header__form-login
+{
+}
+.footer
+{
+  background-color: $color1;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.header__links a
+{
+  color: $colorLinkHeader;
+  font-size: 20px;
+}
+a
+{
+  color: $colorLinkHeader;
+}
